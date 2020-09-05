@@ -83,8 +83,6 @@ const generateOffers = (count) => {
     }));
 };
 
-console.log("generateOffers -> generateOffers=", process.argv);
-
 module.exports = {
   name: `--generate`,
   run(args) {
